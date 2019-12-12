@@ -9,67 +9,67 @@ export class projects extends Component {
             <div>
                 <Header/>
                 <main id="work">
-    <h1 class="lg-heading">
+    <h1 className="lg-heading">
       My
-      <span class="text-secondary">Work</span>
+      <span className="text-secondary">Work</span>
     </h1>
-    <h2 class="sm-heading">
+    <h2 className="sm-heading">
       Check out some of my projects...
     </h2>
-    <div class="projects">
-      <div class="item">
-        <a href="javascript:void()">
-          <img src="{img/projects/project1.jpg}" alt="Project" />
+    <div className="projects">
+      <div className="item">
+        <a href="#!">
+          <img src={require("../../img/projects/project1.jpg")} alt="Project 1" />
         </a>
-        <a href="javascript:void()" class="btn-light">
-          <i class="fas fa-eye"></i> Project
+        <a href="#!" className="btn-light">
+          <i className="fas fa-eye"></i> Project
         </a>
-        <a href="javascript:void()" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="javascript:void()">
-          <img src="{img/projects/project2.jpg}" alt="Project"/>
-        </a>
-        <a href="javascript:void()" class="btn-light">
-          <i class="fas fa-eye"></i> Project
-        </a>
-        <a href="javascript:void()" class="btn-dark">
-          <i class="fab fa-github"></i> Github
+        <a href="#!" className="btn-dark">
+          <i className="fab fa-github"></i> Github
         </a>
       </div>
-      <div class="item">
-        <a href="javascript:void()">
-          <img src="{img/projects/project3.jpg}" alt="Project"/>
+      <div className="item">
+        <a href="#!">
+          <img src={require("../../img/projects/project2.jpg")} alt="Project 2"/>
         </a>
-        <a href="javascript:void()" class="btn-light">
-          <i class="fas fa-eye"></i> Project
+        <a href="#!" className="btn-light">
+          <i className="fas fa-eye"></i> Project
         </a>
-        <a href="javascript:void()" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="javascript:void()">
-          <img src="{img/projects/project4.jpg}" alt="Project"/>
-        </a>
-        <a href="javascript:void()" class="btn-light">
-          <i class="fas fa-eye"></i> Project
-        </a>
-        <a href="javascript:void()" class="btn-dark">
-          <i class="fab fa-github"></i> Github
+        <a href="#!" className="btn-dark">
+          <i className="fab fa-github"></i> Github
         </a>
       </div>
-      <div class="item">
-        <a href="javascript:void()">
-          <img src="{img/projects/project5.jpg}" alt="Project"/>
+      <div className="item">
+        <a href="#!">
+          <img src={require("../../img/projects/project3.jpg")} alt="Project 3"/>
         </a>
-        <a href="javascript:void()" class="btn-light">
-          <i class="fas fa-eye"></i> Project
+        <a href="#!" className="btn-light">
+          <i className="fas fa-eye"></i> Project
         </a>
-        <a href="javascript:void()" class="btn-dark">
-          <i class="fab fa-github"></i> Github
+        <a href="#!" className="btn-dark">
+          <i className="fab fa-github"></i> Github
+        </a>
+      </div>
+      <div className="item">
+        <a href="#!">
+          <img src={require("../../img/projects/project4.jpg")} alt="Project 4"/>
+        </a>
+        <a href="#!" className="btn-light">
+          <i className="fas fa-eye"></i> Project
+        </a>
+        <a href="#!" className="btn-dark">
+          <i className="fab fa-github"></i> Github
+        </a>
+      </div>
+      <div className="item">
+        <a href="#!">
+          <img src={require("../../img/projects/project5.jpg")} alt="Project 5"/>
+        </a>
+        <a href="#!" className="btn-light">
+          <i className="fas fa-eye"></i> Project
+        </a>
+        <a href="#!" className="btn-dark">
+          <i className="fab fa-github"></i> Github
         </a>
       </div>
     </div>
